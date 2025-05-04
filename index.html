@@ -1,0 +1,52 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deine Webagentur</title>
+  <link href="homepagestyle.css" rel="stylesheet"> 
+  <link rel="icon" type="image/png" href="apple.png">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <img src="bannerrichtig.png" alt="Banner">
+      <p>Kostenloses Webdesign – Weil jeder online gesehen werden sollte.</p>
+    </div>
+    <!-- <h1>Webseiten für dein Geschäft</h1>
+    <p>Kostenlos erstellt, stilvoll gepflegt – ab 50 €/Monat</p> -->
+  </header>
+
+  <section>
+    <h2>Was ich anbiete</h2>
+    <ul>
+      <li>✅ Webseite kostenlos erstellen</li>
+      <li>🔧 Monatliche Wartung (50–200 €)</li>
+      <li>🍽️ Für Restaurants, Cafés, Kitas, u.v.m.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <form id="kontaktformular">
+      <input type="text" name="name" placeholder="Dein Name" required>
+      <input type="email" name="email" placeholder="Deine E-Mail" required>
+      <textarea name="nachricht" placeholder="Was brauchst du?" required></textarea>
+      <button type="submit">Absenden</button>
+    </form>
+    
+    <div id="danke-nachricht" style="display:none; margin-top: 1rem; color: green;">
+      ✅ Danke für deine Nachricht! Ich melde mich bald.
+    </div>
+  </section>
+
+  <script src="scriptwebagentur.js"></script>
+</body>
+
+</html>
+
